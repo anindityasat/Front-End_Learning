@@ -1,0 +1,96 @@
+/* Selector Using Tag */
+
+body{
+    background-image: url(/assets/img/bg-img1.png);
+}
+
+/* Font Styling*/
+
+h1{
+    color:darkred;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: x-large;
+    font-weight: 50;
+}
+
+h4{
+    font-variant: small-caps;
+}
+
+h5{
+    font-style: italic;
+    line-height: 25px;
+}
+
+h6{
+    font: oblique small-caps 25px/30px Courier, arial, serif;
+}
+
+.p1{
+    color: blue;
+    text-align: start;
+    text-indent: 56px;
+    text-decoration: underline;
+    text-transform:capitalize;
+    letter-spacing: 2px;
+    word-spacing: 110px;
+}
+
+/* Link Pseudo Class */
+.p2, .p3{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#link1{
+    color:violet;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#link1:active{
+    color: chocolate;
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#link1:visited{
+    color:black;
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/* For Other Styling*/
+
+#pageTitle{
+text-align: center;
+color: black;
+font-size: xxx-large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: underline;
+}
+
+li:first-child a{
+    color: black;
+}
+
+li:last-child a{
+    color: crimson;
+}
+
+li:nth-child(7) a{
+    color:rgb(25, 127, 7);
+}
+
+li:nth-child(2n) a{
+    color:chocolate;
+}

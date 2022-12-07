@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Basic Learning Module">
+    <meta name="author" content="Satria Budihardjo">
+    <meta name="keywords" content="HTML">
+    <title>HTML Basic Learning Module</title>
+    <link rel="stylesheet" href="../style.css"><!-- Navbar Styling -->
+</head>
+
+<body>
+    <!-- NAVBAR ------------------------------------------------------------>
+    <ul id="navbar">
+        <li><a href="..">Home</a></li>
+        <li><a href="#" class="active">HTML Basic</a></li>
+        <li><a href="other/">HTML Other Page</a></li>
+        <li><a href="../CSS/">CSS Basic</a></li>
+        <li><a href="../CSS/cssLayout/">CSS Layout</a></li>
+    </ul>
+    <!---------------------------------------------------------------------->
+    
+
+    <h1>HTML Basic Tag</h1>
+
+    <hr>
+
+    <!-- Heading -->
+    <h3 id="headingTag">HEADING TAG</h3> <br>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <hr><br>
+
+    <!-- Paragraph, Strong, Emphasize -->
+    <h3 id="pTag">P, STRONG, EM, B, I</h3> <br>
+
+    <p>
+        This is a Paragraph.<br>
+        <strong>This words using strong tag.</strong><br>
+        <em>This words using emphasize tag.</em><br>
+        <b>This words using bold tag.</b><br>
+        <i>This words using italic tag.</i>
+    </p>
+
+    <hr><br>
+
+    <!-- Lines -->
+    <h3 id="lineTag">LINE TAG</h3> <br>
+
+    <hr>
+    <hr>
+    <hr>
+
+    <hr><br>
+
+    <!-- List -->
+    <h3 id="listTag">LIST TAG</h3> <br>
+
+    <!-- Ordered List -->
+    <h4 id="orderedList">OrderedList</h4>
+
+    <ol type="1">
+        <li>Order 1</li>
+        <li>Order 2</li>
+        <li>Order 3</li>
+    </ol>
+
+    <ol type="A">
+        <li>Order 1</li>
+        <li>Order 2</li>
+        <li>Order 3</li>
+    </ol>
+
+    <ol type="I">
+        <li>Order 1</li>
+        <li>Order 2</li>
+        <li>Order 3</li>
+    </ol>
+
+    <br>
+
+    <!-- Unordered List -->
+    <h4 id="unorderedList">Un-Ordered List</h4>
+
+    <ul type="">
+        <li>Un-Ordered List Example</li>
+        <li>Un-Ordered List Example</li>
+        <li>Un-Ordered List Example</li>
+    </ul>
+
+    <ul type="circle">
+        <li>Un-Ordered List Example</li>
+        <li>Un-Ordered List Example</li>
+        <li>Un-Ordered List Example</li>
+    </ul>
+
+    <ul type="square">
+        <li>Un-Ordered List Example</li>
+        <li>Un-Ordered List Example</li>
+        <li>Un-Ordered List Example</li>
+    </ul>
+
+
+
+    <hr><br>
+
+
+    <!-- Image -->
+    <h3 id="imgTag">IMAGE TAG</h3> <br>
+
+    <img src="../assets/img/img1.png" alt="" srcset="image 1" style="height: 100px;">
+    <img src="../assets/img/img2.png" alt="" srcset="image 1" style="height: 100px;">
+
+    <hr><br>
+
+    <!-- Hyperlink -->
+    <h3 id="hyperlinkTag">Hyperlink TAG</h3> <br>
+
+    <a href="http://www.google.com">link to google.com</a>
+
+    <p>Link to <a href="#">Top Page</a></p>
+
+    <p>Link to <a href="other/">Other Page</a></p>
+
+
+    <hr><br>
+
+    <!-- Table Tag -->
+    <h3 id="tableTag">TABLE TAG</h3><br>
+
+    <!-- Simple Table -->
+    <table border="5" cellspacing="0" cellpadding="5">
+        <!-- Simple Table -->
+        <h4 id="simpleTable">Simple Table</h4><br>
+        <tr>
+            <td>X</td>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>XXX</td>
+            <td>YYY</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ZZZ</td>
+            <td>XYZ</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Complex Table -->
+    <h4 id="complexTable">Complex Table</h4><br>
+    <table border="10" cellspacing="0" cellpadding="10">
+        <thead>
+            <tr>
+                <th></th>
+                <th>A</th>
+                <th>B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td>XXX</td>
+                <td>YYY</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>ZZZ</td>
+                <td>XYZ</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <table border="5" cellspacing="0" cellpadding="5">
+        <!-- Table Span -->
+        <h4 id="tableSpan">Table Span</h4><br>
+        <tr>
+            <td rowspan="3">ROWSPAN</td>
+            <td colspan="3">COLSPAN</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>XXX</td>
+            <td>YYY</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ZZZ</td>
+            <td>XYZ</td>
+        </tr>
+    </table>
+
+    <hr><br>
+
+    <!-- Form -->
+    <h3 id="formTag">FORM TAG</h3> <br>
+
+    <form action="">
+        <!-- Text Input -->
+        <h4 id="textInput">Text Input</h4>
+
+        <label for="input1">Input1:</label>
+        <input id="input1" type="text">
+
+        <br>
+
+        <!-- Password Input -->
+        <h4 id="passwordInput">Password Input</h4>
+
+        <label for="password1">Pasword1:</label>
+        <input id="password1" type="password">
+
+        <br>
+
+        <!-- Radio Button Input -->
+        <h4 id="radioInput">Radio Button Input</h4>
+
+        <input type="radio" name="radioName" id="radio1">
+        <label for="radio1">Radio 1</label>
+        <input type="radio" name="radioName" id="radio2">
+        <label for="radio2">Radio 2</label>
+        <input type="radio" name="radioName" id="radio3">
+        <label for="radio3">Radio 3</label>
+
+        <br>
+
+        <!-- Check Box Input -->
+        <h4 id="checkboxInput">Check Box Input</h4>
+
+        <input type="checkbox" id="checkbox1">
+        <label for="checkbox1">Check Box 1</label>
+        <input type="checkbox" id="checkbox2">
+        <label for="checkbox2">Check Box 2</label>
+        <input type="checkbox" id="checkbox3">
+        <label for="checkbox3">Check Box 3</label>
+
+        <br>
+
+        <!-- Sumbit Input -->
+        <h4 id="submitInput">Sumbit Input</h4>
+
+        <input type="submit" value="SUBMIT">
+
+        <br>
+
+        <!-- Button Submit Input -->
+        <h4 id="buttonSubmitInput">Button Submit Input</h4>
+
+        <button type="submit">SUBMIT BUTTON</button>
+
+        <br>
+
+        <!-- Text Area Input -->
+        <h4 id="textAreaInput">Text Area Input</h4>
+
+        <textarea name="textArea1" id="textAreaInput1" cols="30" rows="10"></textarea>
+
+        <br>
+
+        <!-- Dropdown Select Input -->
+        <h4 id="dropdownSelectInput">Dropdown / Combo Box Select Input</h4>
+
+        <select name="dropdown1" id="dropdown1">
+            <option value="first">First Option</option>
+            <option value="second">Second Option</option>
+            <option value="third">Third Option</option>
+        </select>
+
+
+    </form>
+
+    <hr><br>
+
+    <!-- Table With Form Example -->
+    <h3 id="imgTag">TABLE WITH FORM EXAMPLE</h3> <br>
+
+    <table border="0" cellspacing="0" cellpadding="6">
+        <thead>
+            <tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+                <td><label for="username">Username:</label></td>
+                <td><input id="username" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="userPassword">User Pasword:</label></td>
+                <td><input id="userPassword" type="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" name="userRadio" id="userRadio1">
+                    <label for="userRadio1">User Radio 1</label>
+                    <input type="radio" name="userRadio" id="userRadio2">
+                    <label for="userRadio2"> User Radio 2</label>
+                    <input type="radio" name="userRadio" id="userRadio3">
+                    <label for="userRadio3"> User Radio 3</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="userCheckbox" id="userCheckbox1">
+                    <label for="userCheckbox1">User Checkbox 1</label>
+                    <input type="checkbox" name="userCheckbox" id="userCheckbox2">
+                    <label for="userCheckbox2"> User Checkbox 2</label>
+                    <input type="checkbox" name="userCheckbox" id="userCheckbox3">
+                    <label for="userCheckbox3"> User Checkbox 3</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="userDropdown">User Dropdown:</label></td>
+                <td>
+                    <select name="userDropdown" id="userDropdown">
+                        <option value="userFirstOption">User First Option</option>
+                        <option value="userSecondOption">User Second Option</option>
+                        <option value="userThirdOption">User Third Option</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="userTextArea">User Text Area:</label></td>
+                <td>
+                    <textarea name="userTextArea" id="userTextArea" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="userSubmitButton"></label></td>
+                <td align="end">
+                    <button id="userSubmitButton" type="submit">SUBMIT !!!</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr><br>
+
+</body>
+
+</html>

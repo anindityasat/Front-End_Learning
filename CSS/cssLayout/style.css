@@ -1,0 +1,264 @@
+/* BOX MODEL */
+
+.container {
+    border: 1px solid black;
+}
+
+.boxModel {
+    border: 2px solid black;
+}
+
+.boxModel#box1 {
+    background-color: lightgreen;
+    margin: 10px;
+    text-indent: 20px;
+    padding: 12px;
+}
+
+.boxModel#box2 {
+    background-color: aquamarine;
+    margin: 15px;
+    padding: 20px;
+    overflow: auto;
+    height: 120px;
+}
+
+.boxModel#box3,
+.boxModel#box4,
+.boxModel#box5,
+.boxModel#box6 {
+    display: inline-flex;
+}
+
+.boxModel#box7 {
+    display: inline-block;
+    margin: 50px 40% 50px;
+    width: 20%;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.boxModel#box8 {
+    background-color: aqua;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.boxModel#box9 {
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    opacity: 50%;
+}
+
+.boxModel#box10 {
+    background-color: rgb(255, 30, 0, 20%);
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    top: px;
+}
+
+.boxModel#box11 {
+    background-color: aqua;
+    border-radius: 8px;
+    position: absolute;
+    right: -10px;
+    top: 10px;
+}
+
+.boxModel#box12 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.boxModel#box12 p {
+    background-color: #ff000088;
+    margin: 10px auto;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    box-shadow: 5px 5px 8px 0px rgba(101, 99, 187, 0.5);
+}
+
+.boxModel#box13 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.boxModel#box13 p {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    line-height: 100px;
+    text-shadow: 5px 5px 5px red, -5px -5px 5px blue;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.boxModel#box14 {
+    display: block;
+    height: 150px;
+    width: 208px;
+    justify-items: center;
+    margin: auto;
+}
+
+.boxModel#box14 p {
+    text-align: center;
+}
+
+.boxModel#box14 .box14img1 {
+    width: 100px;
+    border: 1px solid black;
+}
+
+.boxModel#box14 .box14img2 {
+    width: 100px;
+    border: 1px solid black;
+    filter: grayscale();
+}
+
+.boxModel#box15 {
+    display: block;
+    height: 163px;
+    width: 420px;
+    justify-items: center;
+    margin: 10px auto;
+}
+
+.boxModel#box15 p {
+    text-align: center;
+}
+
+.boxModel#box15 .box15img1 {
+    width: 100px;
+    border: 1px solid black;
+}
+
+.boxModel#box15 .box15img1:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+
+.boxModel#box15 .box15img2 {
+    width: 100px;
+    border: 1px solid black;
+}
+
+.boxModel#box15 .box15img2:hover {
+    transform: rotateX(360deg) rotateY(360deg);
+    transition: 3s;
+}
+
+.boxModel#box15 .box15img3 {
+    width: 100px;
+    border: 1px solid black;
+}
+
+.boxModel#box15 .box15img3:hover {
+    transform: skewY(30deg);
+    transition: 1s;
+}
+
+.boxModel#box15 .box15img4 {
+    width: 100px;
+    border: 1px solid black;
+}
+
+.boxModel#box15 .box15img4:hover {
+    transform: translate3d(10px, 10px, 100px) rotate3d(4, 3, 0.4, 360deg);
+    transition: 1s;
+}
+
+.boxModel#box16 {
+    display: block;
+    height: 163px;
+    width: 420px;
+    justify-items: center;
+    margin: 10px auto;
+}
+
+.boxModel#box16 p {
+    text-align: center;
+}
+
+.boxModel#box16 .box16img1 {
+    width: 100px;
+    border: 1px solid black;
+    transition: 0.75s;
+}
+
+.boxModel#box16 .box16img1:hover {
+    transform: scale(2) rotate(360deg);
+    filter: grayscale();
+
+}
+
+
+.boxModel#box16 .box16img2 {
+    width: 100px;
+    border: 1px solid black;
+    transition: 0.75s;
+
+}
+
+.boxModel#box16 .box16img2:hover {
+    position: relative;
+    transform: rotate(360deg) skew(10deg);
+}
+
+@keyframes box16Animation1 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+        filter: hue-rotate(360deg);
+    }
+
+    100% {
+        transform: scale(1.4);
+    }
+}
+
+.boxModel#box16 .box16img3 {
+    width: 100px;
+    border: 1px solid black;
+    animation: box16Animation1 1.5s linear infinite;
+}
+
+@keyframes box16Animation2 {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(720deg) scale(1.4);
+        filter: contrast(1.2);
+    }
+
+    100% {
+        transform: rotate(1440deg) scale(1);
+
+    }
+}
+
+.boxModel#box16 .box16img4 {
+    width: 100px;
+    border: 1px solid black;
+    animation: box16Animation2 1s linear infinite normal;
+}
